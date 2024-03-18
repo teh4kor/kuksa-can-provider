@@ -135,7 +135,7 @@ jobs:
       with:
         context: .
         file: ./Dockerfile
-        tags: ghcr.io/teh4kor/kuksa-can-provider:dummy1
+        tags: ghcr.io/teh4kor/kuksa-can-provider:main
         push: true
         platforms: "linux/arm64" 
 
